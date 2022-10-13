@@ -1,0 +1,53 @@
+{
+  "transaction": {
+    "version": "0x0",
+    "cell_deps": [
+      {
+        "out_point": {
+          "tx_hash": "0xf8de3bb47d055cdf460d93a2a6e1b05f7432f9777c8c474abf4eec1d4aee5d37",
+          "index": "0x0"
+        },
+        "dep_type": "dep_group"
+      }
+    ],
+    "header_deps": [],
+    "inputs": [
+      {
+        "since": "0x0",
+        "previous_output": {
+          "tx_hash": "0xddfaaaf10673b919d3dd77ec4dd936586721fc90c65c1ad3cd42423d14324b54",
+          "index": "0x0"
+        }
+      }
+    ],
+    "outputs": [
+      {
+        "capacity": "0xe8cf47c580",
+        "lock": {
+          "code_hash": "0x9bd7e06f3ecf4be0f2fcd2188b23f1b9fcc88e5d4b65a8637b17723bbda3cce8",
+          "hash_type": "type",
+          "args": "0x1f2ca834d02a8d23503c29ad3f9066a54e6790c0"
+        },
+        "type": null
+      }
+    ],
+    "outputs_data": [
+      "0x"
+    ],
+    "witnesses": []
+  },
+  "multisig_configs": {
+    "0x9460e954b4ba40372f71d04ef81f30d9b3c98b73": {
+      "sighash_addresses": [
+        "ckt1qyqp7t9gxngz4rfr2q7zntfljpn22nn8jrqqnyattm"
+      ],
+      "require_first_n": 0,
+      "threshold": 1
+    }
+  },
+  "signatures": {
+    "0x1f2ca834d02a8d23503c29ad3f9066a54e6790c0": [
+      "0x8ebf17bd06ad126782ac80c3a00f98bbc414bac7d8b809883e41e266ba9e667b723c2f8c9944e4033c6b20976cf8ab31dc1df14dd0f9f07edced1abdbe3ee53e01"
+    ]
+  }
+}
