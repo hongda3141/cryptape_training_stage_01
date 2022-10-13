@@ -33,9 +33,13 @@ $ ckb-cli tx clear-field --tx-file tx.json --field signatures
 
 
 >在 testnet 部署 always success 合约，并使用 type id 作为 type script
+todo
 
 >创建一个 lock 和 type 都使用 type script hash 引用 always success 的 cell
+todo
 
 >升级一次 always success，可以不修改 data
+todo
 
 >使用升级后的 always success 组装交易解锁第三步中的 cell
+todo
